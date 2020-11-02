@@ -17,11 +17,21 @@
             <Setter Property="Height" Value="auto"/>
             <Setter Property="Source" Value="episodioIV.jpg"/>
         </Style>
+        
+        
         <Style TargetType="Label">
             <Setter Property="MinHeight" Value="40"/>
             <Setter Property="Background" Value="LightBlue"/>
         </Style>
-      
+
+        <Style TargetType="Label" x:Key="visorimg">
+            <Setter Property="FontFamily" Value="rubik"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Height" Value="auto"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="DockPanel.Dock" Value="Top"/>
+        </Style>
 
     </Window.Resources>
     <DockPanel>
@@ -37,7 +47,7 @@
 
             </StackPanel>
         </Border>
-        <Label DockPanel.Dock="Top" Width="auto" Height="auto"  HorizontalAlignment="Center" FontSize="40" FontFamily="Rubik" Content="Visor de imágenes" />
+        <Label Content="Visor de imágenes" Style="{StaticResource visorimg}"/>
 
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Height="42"  Margin="0,0,-114,0">
             <Label  Content="Nº de imagenes" HorizontalAlignment="Left"  MinWidth="241" Margin="5,0,0,5" Width="325"  />
