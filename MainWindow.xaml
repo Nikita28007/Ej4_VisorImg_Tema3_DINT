@@ -15,6 +15,7 @@
         <Style TargetType="Image">
             <Setter Property="Width" Value="100"/>
             <Setter Property="Height" Value="auto"/>
+            <Setter Property="Source" Value="episodioIV.jpg"/>
         </Style>
         <Style TargetType="Label">
             <Setter Property="MinHeight" Value="40"/>
@@ -36,7 +37,7 @@
 
             </StackPanel>
         </Border>
-        <TextBlock DockPanel.Dock="Top" Width="auto" Height="auto" TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="40" FontFamily="Rubik" Text="Visor de imágenes" />
+        <Label DockPanel.Dock="Top" Width="auto" Height="auto"  HorizontalAlignment="Center" FontSize="40" FontFamily="Rubik" Content="Visor de imágenes" />
 
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Height="42"  Margin="0,0,-114,0">
             <Label  Content="Nº de imagenes" HorizontalAlignment="Left"  MinWidth="241" Margin="5,0,0,5" Width="325"  />
@@ -45,14 +46,14 @@
 
 
         <WrapPanel>
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
-            <Image Source="episodioIV.jpg" />
+            <Image/>
+            <Image/>
+            <Image/>
+            <Image/>
+            <Image/>
+            <Image/>
+            <Image/>
+            <Image/>
         </WrapPanel>
     </DockPanel>
 
