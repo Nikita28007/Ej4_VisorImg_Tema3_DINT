@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ej4_VisorImg_Tema3_DINT"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="440" MinWidth="535" Width="530.099"  Height="434.334">
+        Title="MainWindow" MinHeight="440" MinWidth="535" Width="530.099"  Height="434.334"
+        Icon="icono.ico">
 
     <Window.Resources>
         <Style TargetType="Button">
